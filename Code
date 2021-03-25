@@ -1,0 +1,16 @@
+/* My objective is to multiply each number of an array by2 */
+
+/* Using for loop: */
+
+nums = [0,2,3,6,7];
+result = [];
+for (let i=0; i<num.length; i++){
+  result.push(nums[i]*2);
+}
+return result;
+
+/*  Using map function: */
+
+const arr = nums.map(function(n){
+ return n*2
+})
